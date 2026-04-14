@@ -24,7 +24,7 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.7954684902670515,
+        "yaw": 0.2954684902670515,
         "pitch": 0.22172751457699746,
         "fov": 1.2599180821480807
       },
@@ -42,7 +42,7 @@ var APP_DATA = {
            "yaw": 1.4658131213958807,
           "pitch": 0.2894665629288049,
           "url": "https://louclimber.github.io/Aldehuela/",
-          "title": "EL ESTRECHO DE ALDEHUELA"
+          "title": "EL ESTRECHO<br>DE<br>ALDEHUELA"
         },
         {
           "yaw": 0.4813367441970158,
@@ -63,7 +63,6 @@ var APP_DATA = {
           "text": "Text"
         }        
       ],
-
       "imageHotspots": [
         {
           "yaw": 2.581536152334892,

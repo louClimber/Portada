@@ -983,6 +983,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   line-height: 1.2em;
   opacity: 0.95;
   transition: opacity 0.2s;
+  position: relative;
 }
 
 .no-touch .pin-hotspot:hover {
@@ -992,70 +993,65 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 .pin-hotspot .pin-hotspot-header {
   position: relative;
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
   width: 40px;
   height: 60px;
-  border-radius: 20px;
-  background-color: rgba(103,115,131,0.9);
+  background: transparent;
   cursor: pointer;
-  overflow: hidden;
+  overflow: visible;
   text-decoration: none;
   white-space: nowrap;
-  transition: all 0.3s ease-in-out;
 }
 
 .mobile .pin-hotspot .pin-hotspot-header {
   width: 50px;
-  height: 50px;
-  border-radius: 25px;
-}
-
-.desktop.no-touch .pin-hotspot .pin-hotspot-header:hover {
-  width: auto;
-  padding-right: 12px;
-  border-radius: 6px;
+  height: 70px;
 }
 
 .pin-hotspot .pin-hotspot-icon-wrapper {
-  flex: 0 0 40px;
   width: 40px;
   height: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .mobile .pin-hotspot .pin-hotspot-icon-wrapper {
-  flex: 0 0 50px;
   width: 50px;
-  height: 50px;
+  height: 70px;
 }
 
 .pin-hotspot .pin-hotspot-icon {
-  width: 90%;
-  height: 90%;
-  margin: 5%;
+  width: 100%;
+  height: 100%;
   display: block;
+  object-fit: contain;
 }
 
 .pin-hotspot .pin-hotspot-title-wrapper {
-  display: inline-flex;
-  align-items: center;
-  max-width: 0;
-  overflow: hidden;
-  transition: max-width 0.3s ease-in-out;
-}
-
-.desktop.no-touch .pin-hotspot .pin-hotspot-header:hover .pin-hotspot-title-wrapper {
-  max-width: 500px;
-}
-
-.mobile .pin-hotspot .pin-hotspot-title-wrapper {
-  max-width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%) translateY(6px);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  opacity: 1;
+  pointer-events: none;
 }
 
 .pin-hotspot .pin-hotspot-title {
+  display: inline-block;
+  min-width: 130px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  background-color: rgba(103,115,131,0.95);
   color: #fff;
   font-size: 14px;
-  white-space: nowrap;
-  padding-right: 4px;
+  line-height: 1.2;
+  white-space: normal;
+  text-align: center;
 }
 
 /* Image hotspot */
