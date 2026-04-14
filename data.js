@@ -47,8 +47,8 @@ var APP_DATA = {
         {
           "yaw": 0.4813367441970158,
           "pitch": -0.0602684416863184,
-          "title": "La Porra",
-          "text": "Text"
+          "url": "https://louclimber.github.io/LaPorra/",
+          "title": "LA PORRA"          
         },
         {
           "yaw": -0.18192529896074916,
