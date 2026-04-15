@@ -53,8 +53,8 @@ var APP_DATA = {
         {
           "yaw": -0.18192529896074916,
           "pitch": -0.07207248353068785,
-          "title": "La Olla",
-          "text": "Text"
+          "url": "https://louclimber.github.io/LaOlla/",
+          "title": "LA OLLA"
         },
         {
           "yaw": -2.767538263354716,
