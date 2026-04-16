@@ -59,8 +59,8 @@ var APP_DATA = {
         {
           "yaw": -2.767538263354716,
           "pitch": -0.03607002354035416,
-          "title": "La Hoz Mala",
-          "text": "Text"
+          "url": "https://louclimber.github.io/LaHozMala/",
+          "title": "LA HOZ MALA"
         }        
       ],
       "imageHotspots": [
@@ -69,7 +69,7 @@ var APP_DATA = {
           "pitch": 0.18444297663480924,
           "title": "Contacto: PALEÓGENO-CRETÁCICO",
           "image": "img/contacto.jpg",
-          "icon": "img/lupa.png"
+          "icon": "img/info.png"
         }
       ]
     }
